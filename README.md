@@ -1,12 +1,13 @@
-// delete branch locally
+## delete branch locally
 git branch -d localBranchName
 
-// delete branch remotely
+## delete branch remotely
 git push origin --delete remoteBranchName
 
 -------------------------------------------
 
-Annotated tags store extra meta data such as: the tagger name, email, and date. This is important data for a public release. Lightweight tags are essentially 'bookmarks' to a commit, they are just a name and a pointer to a commit, useful for creating quick links to relevant commits.
+Annotated tags store extra meta data such as: the tagger name, email, and date. This is important data for a public release.
+Lightweight tags are essentially 'bookmarks' to a commit, they are just a name and a pointer to a commit, useful for creating quick links to relevant commits.
 
 -------------------------------------------
 
